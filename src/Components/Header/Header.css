@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  background-color: rgb(136, 142, 142);
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+.header_logo {
+  flex: 3;
+  font-size: 150%;
+}
+.header_home {
+  flex: 1;
+}
+.header_creator {
+  flex: 1;
+}
+.header_createcontent {
+  flex: 1;
+}
+.header_search {
+  flex: 2;
+}
+.header_search-input {
+  cursor: pointer;
+}
+
+.header_search-search {
+  cursor: pointer;
+}
+.header_createcontent {
+  cursor: pointer;
+}
+.header_logo:hover,
+.header_home:hover,
+.header_creator:hover,
+.header_createcontent:hover {
+  color: rgb(109, 109, 108);
+  cursor: pointer;
+}

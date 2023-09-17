@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+  height: 800px;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}

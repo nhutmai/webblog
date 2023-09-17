@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  background-color: rgb(136, 142, 142);
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.footer_logo {
+  font-size: larger;
+}
+.footer_logo:hover,
+.footer_createcontent:hover {
+  color: rgb(109, 109, 108);
+  cursor: pointer;
+}
