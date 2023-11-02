@@ -1,0 +1,25 @@
+.main__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 110px;
+}
+#main__content-image {
+  width: 100%;
+  max-height: 110px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+}
+.main__content-suggest {
+  position: relative;
+  background-color: blanchedalmond;
+  height: 1000px;
+  width: 30%;
+}
+.main__content-blog {
+  position: relative;
+  background-color: beige;
+  width: 50%;
+}

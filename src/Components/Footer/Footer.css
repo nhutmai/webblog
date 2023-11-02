@@ -1,10 +1,15 @@
 .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
-  min-height: 50px;
-  background-color: rgb(136, 142, 142);
+  min-height: 100px;
+  background-color: #0c1a33;
+  color: #fff;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 100px;
   font-family: "Courier New", Courier, monospace;
 }
 .footer_logo {

@@ -1,5 +1,5 @@
 import React from "react";
-import { contentInfors } from "../../../Redux/contentandInfor";
+import { contentInfors } from "../../../../Redux/contentandInfor";
 
 function NewContent() {
   return (

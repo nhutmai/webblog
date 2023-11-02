@@ -1,15 +1,21 @@
 .header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   min-height: 50px;
-  background-color: rgb(136, 142, 142);
+  background-color: #fff;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 100px;
   font-family: "Courier New", Courier, monospace;
   font-size: larger;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .header_logo {
-  flex: 3;
+  flex: 2;
   font-size: 150%;
 }
 .header_home {
@@ -22,6 +28,9 @@
   flex: 1;
 }
 .header_search {
+  flex: 2.5;
+}
+.header_loginout {
   flex: 2;
 }
 .header_search-input {
@@ -40,4 +49,48 @@
 .header_createcontent:hover {
   color: rgb(109, 109, 108);
   cursor: pointer;
+}
+
+/* login-out */
+.header_loginout {
+  align-items: center;
+  display: flex;
+}
+.header_loginout-icon {
+  fill: #5488c7;
+  margin: 5px;
+}
+/* search */
+.header_search {
+  position: relative;
+  justify-items: end;
+  align-items: center;
+  margin: 5px;
+  box-sizing: border-box;
+}
+.header_search-input {
+  width: 90%;
+  height: 2 rem;
+  padding: 5px;
+  line-height: 1;
+  padding: 0.65rem calc(45px + 1.5rem) 0.65rem rem 1.5rem;
+  border: 2px solid #d6d6d7;
+  font-size: 17px;
+}
+.header_search-input:focus-visible {
+  background-color: #fff;
+  border: 3px solid #5488c7;
+}
+
+.header_search-button {
+  background-color: #5488c7;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 17px;
+}
+.header_search-search-icon {
+  fill: #fff;
 }
