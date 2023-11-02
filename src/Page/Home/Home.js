@@ -1,14 +1,14 @@
 import React from "react";
-import ContentList from "../../Components/ContentList/ContenList";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import Suggest from "../../Components/Suggest/Suggest";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
       <Header />
-      <ContentList />
+      <Suggest />
       <Footer />
     </div>
   );
